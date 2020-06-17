@@ -10,4 +10,4 @@ and the retro video games, in this web site will be showm:
 
 ## Used technologies
 
-_The used technologies are HTML and CSS_
+*The used technologies are HTML and CSS*

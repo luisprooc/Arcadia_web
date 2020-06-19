@@ -17,8 +17,6 @@ ul li{
     bottom: 35px;
     color: bisque;
     text-decoration: none;
-    
-
 }
 
 .Navigation{
@@ -66,7 +64,6 @@ ul li a:hover{
 
 }
 
-
 .Banner ul{
     position: absolute;
     right: 400px;
@@ -89,4 +86,31 @@ ul li a:hover{
     background: linear-gradient(180deg, rgb(38, 102, 165), rgb(60%, 20%, 40%));
 }
 
+
+
+.Banner li span{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Banner li:hover{
+    background: linear-gradient(180deg, rgb(38, 102, 165), rgb(60%, 20%, 40%));
+}
+
 /* Info */
+
+#Info{
+    background-color: aqua;
+    width:100% ;
+    height: 500px;
+}
+
+#Info .container-img{
+    display: inline-block;
+    background-color: red;
+}
+
+#Info .container-info{
+    display: inline-block;
+    background-color: green;
+}

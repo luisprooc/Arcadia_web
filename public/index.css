@@ -109,7 +109,7 @@ ul li a:hover{
     height: 440px;
     width:45%;
     display: inline-block;
-    background: whitesmoke,url("../imagenes/waves.png");
+    background: whitesmoke;
     margin: 130px 20px ;
     padding: 0%;
     position: absolute;
@@ -186,7 +186,7 @@ ul li a:hover{
     height: 440px;
     width:45%;
     display: inline-block;
-    background: url("../imagenes/waves.png"),whitesmoke;
+    background: whitesmoke;
     margin: 130px 20px ;
     padding: 0%;
     position: absolute;
@@ -229,6 +229,10 @@ ul li a:hover{
     width: 350px;
     height: 325px;
     margin-left: 70px;
+    background:none;
+}
+
+#Games img:hover{
     background:linear-gradient(270deg, rgb(38, 102, 165), rgb(251, 251, 251));
     border-radius: 10px 30px 10px 60px;
 }
@@ -239,7 +243,7 @@ ul li a:hover{
 #Companies{
     width: 100%;
     color: aliceblue;
-    height: 700px;
+    height: 620px;
 }
 
 #Companies h1{
@@ -250,7 +254,7 @@ ul li a:hover{
     padding-top: 35px;
     margin: 0%;
     position: relative;
-    left: 17em;
+    left: 16em;
     color:rgb(60%, 20%, 40%);
 }
 
@@ -258,26 +262,66 @@ ul li a:hover{
 #Companies .card{
     margin-left: 20px;
     margin-top: 40px;
-    background-color: black;
+    background: linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
     display: inline-block;
     width: 25rem;
-    height: 550px;
-    border-radius: 10px 10px 10px 10px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #Companies .card .card-header{
-    background-color: red;
     display: inline-block;
     width: 25rem;
     height: 200px;
-    margin-top:25px ;
+    margin-bottom: 0px;
+
 }
 
+#Companies .card .card-header h3{
+    width: auto;
+    position: relative; 
+    padding-left: 90px;
+    top: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 8pt;
+    background: rgba(43, 61, 219, 0.733);
+    border: 2px ridge rebeccapurple;
+}
+
+#Companies .card .card-header img{
+    position: relative;
+    left: 150px;
+    margin-top: 15px;
+}
 
 #Companies .card .card-body{
-    background-color: green;
     display: inline-block;
     width: 25rem;
     height: 300px;
     position: relative;
+    color: blueviolet;
+}
+
+
+
+#Companies .card .card-body p{
+    text-indent: 20pt;
+    position: relative;
+    color: white;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2pt;
+}
+
+#Companies .first{
+    margin-left: 50px;
+}
+
+#Companies .card .card-header .h3-corto{
+    padding-left: 150px;
+    
 }

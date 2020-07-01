@@ -111,8 +111,9 @@ ul li a:hover{
     display: inline-block;
     background: whitesmoke;
     margin: 130px 20px ;
-    padding: 0%;
+    padding-top: 10px;
     position: absolute;
+    box-shadow: 5px 5px 5px gray;
 }
 
 
@@ -128,6 +129,7 @@ ul li a:hover{
     width: auto;
     height: 440px;
     margin: 130px 20px;
+    box-shadow: 4px 3px gray;
 
 }
 
@@ -187,9 +189,10 @@ ul li a:hover{
     width:45%;
     display: inline-block;
     background: whitesmoke;
-    margin: 130px 20px ;
-    padding: 0%;
+    margin: 130px 20px;
+    padding-top: 10px;
     position: absolute;
+    box-shadow: 5px 5px 5px gray;
 }
 
 #History  img{
@@ -198,6 +201,7 @@ ul li a:hover{
     margin: 130px 20px;
     position: relative;
     left: 49em;
+    box-shadow: 4px 3px gray;
 
 }
 
@@ -267,6 +271,7 @@ ul li a:hover{
     width: 25rem;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 8px 6px rgb(207, 199, 199);
 }
 
 #Companies .card .card-header{
@@ -325,3 +330,28 @@ ul li a:hover{
     padding-left: 150px;
     
 }
+
+/* Blog */
+
+#Blog{
+    background-color: aqua;
+    width: 100%;
+    height: 935px;
+}
+
+#Blog .mini-blog{
+    margin-top: 2px;
+    height: 260px;
+    padding: 20px;
+    border: 5px blue dotted;
+}
+
+
+
+#Blog .Code{
+    height: 500px;
+    transition: 3s;
+    position: relative;
+    bottom: 400px;
+}
+

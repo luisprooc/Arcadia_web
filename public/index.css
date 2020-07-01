@@ -333,25 +333,77 @@ ul li a:hover{
 
 /* Blog */
 
-#Blog{
-    background-color: aqua;
-    width: 100%;
-    height: 935px;
-}
-
-#Blog .mini-blog{
-    margin-top: 2px;
-    height: 260px;
-    padding: 20px;
-    border: 5px blue dotted;
-}
-
-
-
-#Blog .Code{
+#Marketing{
+    background: url("../imagenes/blog_marketing.jpg");
+    background-size: 100%;
     height: 500px;
-    transition: 3s;
-    position: relative;
-    bottom: 400px;
+    margin-top: 20px;
+    border-top: 5px solid rgb(226, 78, 78);
+}
+
+#Marketing .texto{
+    background: linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
+    display: inline-block;
+    width: 100%;
+    height: 0.5px;
+    opacity: 0.9;
+    overflow: hidden;
+    color: azure;
+}
+
+#Marketing:hover :first-child{
+    transition-duration: 2.5s;
+    height: 500px;
+}
+
+
+
+
+#Code{
+    background: url("../imagenes/blog_programacion.jpg");
+    background-size: 100%;
+    height: 500px;
+    border-top: 5px solid rgb(226, 78, 78);
+}
+
+
+#Code .texto{
+    background: linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
+    display: inline-block;
+    width: 100%;
+    height: 0.5px;
+    opacity: 0.9;
+    overflow: hidden;
+    color: azure;
+}
+
+#Code:hover :first-child{
+    transition-duration: 2.5s;
+    height: 500px;
+}
+
+
+
+#Videogame{
+    background: url("../imagenes/blog_videojuegos.jpg");
+    background-size: 100%;
+    height: 500px;
+    border-top: 5px solid rgb(226, 78, 78);
+}
+
+
+#Videogame .texto{
+    background: linear-gradient(270deg, rgb(45, 133, 184), rgb(226, 78, 78));
+    display: inline-block;
+    width: 100%;
+    height: 0.5px;
+    opacity: 0.9;
+    overflow: hidden;
+    color: azure;
+}
+
+#Videogame:hover :first-child{
+    transition-duration: 2.5s;
+    height: 500px;
 }
 

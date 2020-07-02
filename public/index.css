@@ -429,3 +429,12 @@ ul li a:hover{
     background:linear-gradient(70deg, rgb(45, 133, 184), rgb(226, 78, 78));
     margin-bottom: 0;
 }
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(14, 15, 15);
+    height: 150px;
+    border-top: 4px outset rgb(0, 0, 0);
+}

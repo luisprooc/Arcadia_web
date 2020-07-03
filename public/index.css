@@ -434,7 +434,25 @@ ul li a:hover{
 /*footer*/
 
 footer{
-    background-color: rgb(14, 15, 15);
+    background: linear-gradient(180deg, rgb(45, 133, 184), rgb(226, 78, 78));
     height: 150px;
     border-top: 4px outset rgb(0, 0, 0);
 }
+
+footer p{
+    padding-top: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-stretch: expanded;
+    font-weight: bold;
+    color: rgb(32, 30, 29);
+    font-size: large;
+}
+
+footer a{
+    position: absolute;
+    top: 700%;
+    margin-left: 50px;
+}
+

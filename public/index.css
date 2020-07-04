@@ -97,6 +97,18 @@ ul li a:hover{
     background: linear-gradient(180deg, rgb(38, 102, 165), rgb(60%, 20%, 40%));
 }
 
+/*H1*/
+
+h1{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1rem;
+    width: 10px;
+    margin: 0%;
+    color: rgb(60%, 20%, 40%);
+    padding-top: 50px;
+}
+
 /* Info */
 
 #Info{
@@ -134,15 +146,8 @@ ul li a:hover{
 }
 
 #Info h1{
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1rem;
-    width: 10px;
-    padding-top: 50px;
-    margin: 0%;
     position: relative;
     left: 20em;
-    color: rgb(60%, 20%, 40%);
     
 }
 
@@ -172,15 +177,8 @@ ul li a:hover{
 }
 
 #History h1{
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1rem;
-    width: 10px;
-    padding-top: 50px;
-    margin: 0%;
     position: relative;
     left: 18em;
-    color: rgb(60%, 20%, 40%);
     
 }
 
@@ -216,12 +214,7 @@ ul li a:hover{
 
 
 #Games h1{
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1rem;
-    width: 10px;
     padding-top: 30px;
-    margin: 0%;
     position: relative;
     left: 17em;
     color: beige;
@@ -251,15 +244,9 @@ ul li a:hover{
 }
 
 #Companies h1{
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1rem;
-    width: 10px;
     padding-top: 35px;
-    margin: 0%;
     position: relative;
     left: 16em;
-    color:rgb(60%, 20%, 40%);
 }
 
 
@@ -433,13 +420,13 @@ ul li a:hover{
 
 /*footer*/
 
-footer{
+#footer{
     background: linear-gradient(180deg, rgb(45, 133, 184), rgb(226, 78, 78));
     height: 150px;
     border-top: 4px outset rgb(0, 0, 0);
 }
 
-footer p{
+#footer p{
     padding-top: 20px;
     text-align: center;
     font-variant: small-caps;
@@ -450,9 +437,17 @@ footer p{
     font-size: large;
 }
 
-footer a{
+#footer a{
     position: absolute;
     top: 700%;
+    display: inline-block;
     margin-left: 50px;
 }
 
+#footer :last-child{
+    position: absolute;
+    top: 700%;
+    display: inline-block;
+    left: 85%;
+
+}

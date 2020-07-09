@@ -399,3 +399,15 @@ html{
     scroll-behavior: smooth;
 }
 
+
+/* Responsive Design */
+
+@media screen and (max-width:500px){
+
+    .Navigation{
+        display: flex;
+        flex-wrap: wrap;
+        height: 7em;
+    }
+
+}

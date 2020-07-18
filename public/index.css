@@ -69,16 +69,11 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     padding: 20px;
-    cursor: cell;
 }
 
 .Banner li span{
     margin-left: 10px;
     margin-top: 5px;
-}
-
-.Banner li:hover{
-    background: linear-gradient(180deg, rgb(38, 102, 165), rgb(60%, 20%, 40%));
 }
 
 
@@ -112,20 +107,10 @@ h1{
     box-shadow: 5px 5px 5px gray;
 }
 
-
-#Info .container:hover, #History .container:hover {
-    background: url("../imagenes/container_arcade.jpg");
-    color: rgba(240, 11, 11, 0.822);
-    font-weight: bold;
-}
-
-
-
 #Info  img{
     width: auto;
     height: 440px;
     margin: 130px 20px;
-    box-shadow: 4px 3px gray;
 
 }
 
@@ -182,7 +167,6 @@ h1{
     margin: 130px 20px;
     position: relative;
     left: 49em;
-    box-shadow: 4px 3px gray;
 
 }
 
@@ -209,11 +193,6 @@ h1{
     height: 325px;
     margin-left: 70px;
     background:none;
-}
-
-#Games img:hover{
-    background:linear-gradient(270deg, rgb(38, 102, 165), rgb(251, 251, 251));
-    border-radius: 10px 30px 10px 60px;
 }
 
 
@@ -352,7 +331,6 @@ h1{
 }
 
 #Blog .titulo{
-    text-shadow: 2px 1px white;
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -388,7 +366,7 @@ h1{
     margin-left:75px;
 }
 
-#footer a[href="xd"]{
+#footer a[href="##"]{
     position: relative;
     left: 60rem;
 }

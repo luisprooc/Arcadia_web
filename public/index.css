@@ -218,7 +218,6 @@ h1{
     width: 25rem;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 8px 6px rgb(207, 199, 199);
 }
 
 #Companies .card .card-header{
@@ -243,10 +242,11 @@ h1{
     border: 2px ridge rebeccapurple;
 }
 
-#Companies .card .card-header img{
+#Companies .card .card-header p{
     position: relative;
     left: 150px;
     margin-top: 15px;
+    font-size: 54px;
 }
 
 #Companies .card .card-body{
